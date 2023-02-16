@@ -1,0 +1,30 @@
+* {
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+body {
+    background-color: rosybrown;
+    margin: 3rem;
+ 
+}
+
+.container{
+        display:grid;
+        justify-content: center;
+        align-items: center;
+      
+}
+
+
+#par{
+    color: rgb(192, 74, 192);
+
+}
+
+#impar{
+    color:rgb(201, 161, 60);
+
+}

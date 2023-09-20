@@ -1,8 +1,8 @@
-let list = document.getElementById('list');
+let lista = document.getElementById('list');
 let par = document.getElementById('par');
 let impar = document.getElementById('impar');
 
-let colorActual = "lightgray";
+let colorActual = "black";
 // Manejar el clic en el botón "Colorear pares"
 par.addEventListener("click", function() {
     // Obtener todos los elementos de la lista
@@ -15,10 +15,10 @@ par.addEventListener("click", function() {
 
     
     // Cambiar el color actual para la próxima vez
-    if (colorActual === "lightgray") {
-      colorActual = "white";
+    if (colorActual === "black") {
+      colorActual = "red";
     } else {
-      colorActual = "lightgray";
+      colorActual = "black";
     }
   });
   
@@ -33,9 +33,9 @@ par.addEventListener("click", function() {
     }
 
     // Cambiar el color actual para la próxima vez
-    if (colorActual === "lightgray") {
-      colorActual = "white";
+    if (colorActual === "black") {
+      colorActual = "blue";
     } else {
-      colorActual = "lightgray";
+      colorActual = "black";
     }
   });
